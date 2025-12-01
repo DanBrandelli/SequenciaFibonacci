@@ -1,4 +1,4 @@
-//7. Faça um programa que monte os oito primeiros termos da sequência de Fibonacci
+//7. Programa que monte os oito primeiros termos da sequÃªncia de Fibonacci
 // 0  1  1  2  3  5  8  13  21  34  55
 #include<stdio.h>
 
@@ -10,11 +10,12 @@ int main ()
 
      printf ("\t%d", p1);
      printf ("\t%d", p2);
-
+    
+// LaÃ§o de repetiÃ§Ã£o para iterar a lÃ³gica de Fibonacci
     for (i = 3; i <=8; i++)
     {
          resultado = p1 + p2;
-         printf ("\t%d", resultado); //printei 1 3ª posição
+         printf ("\t%d", resultado); //printei 1 3Âª posiÃ§Ã£o
          p1 = p2;
          p2 = resultado;
     }
